@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "lib/index.ts",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "prepare": "rm -rf lib && mkdir lib && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonheekim0118/util-type-deploy-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moonheekim0118/util-type-deploy-practice/issues"
+  },
+  "homepage": "https://github.com/moonheekim0118/util-type-deploy-practice#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.21",
+    "tsd": "^0.24.1",
+    "typescript": "^4.8.3"
+  }
+}
