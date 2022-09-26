@@ -1,8 +1,7 @@
 {
-  "name": "test",
+  "name": "moonheekim0118",
   "version": "1.0.0",
   "description": "test",
-  "main": "lib/index.ts",
   "types": "lib/index.d.ts",
   "scripts": {
     "prepare": "rm -rf lib && mkdir lib && tsc"
